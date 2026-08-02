@@ -1,0 +1,90 @@
+/* Background */
+.stApp{
+    background:#0F172A;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#111827;
+    border-right:1px solid #1E293B;
+}
+
+/* Buttons */
+.stButton>button{
+
+background:linear-gradient(90deg,#2563EB,#06B6D4);
+
+color:white;
+
+border:none;
+
+border-radius:15px;
+
+height:60px;
+
+font-size:18px;
+
+font-weight:bold;
+
+transition:.3s;
+}
+.stButton>button:hover{
+
+transform:translateY(-2px);
+
+box-shadow:0 10px 25px rgba(37,99,235,.35);
+}
+
+/* ===== Cyber Header Glow ===== */
+
+h1{
+    color:#F8FAFC;
+    text-shadow:0 0 12px rgba(37,99,235,.45);
+}
+/* Text Area */
+textarea{
+    background:#1E293B !important;
+    color:white !important;
+    border:2px solid #2563EB !important;
+    border-radius:18px !important;
+}
+}
+
+/* Cards */
+.card{
+    background:#1E293B;
+    border-radius:18px;
+    padding:22px;
+    box-shadow:0 8px 30px rgba(0,0,0,.25);
+}
+
+/* Progress Bar */
+.stProgress > div > div{
+
+background:linear-gradient(90deg,#2563EB,#06B6D4);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#2563EB;
+
+border-radius:20px;
+}
+
+/* ===== Glass Cards ===== */
+
+.glass-card{
+    background: rgba(30,41,59,.65);
+    backdrop-filter: blur(16px);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:20px;
+    box-shadow:0 8px 30px rgba(0,0,0,.35);
+    margin-bottom:18px;
+}
